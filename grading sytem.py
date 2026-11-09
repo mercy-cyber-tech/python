@@ -57,10 +57,11 @@ while True:
           for student in students:
             if student['score'] >= 50:
                 passes += 1
-                print("passes: ")
             else:
                 fails += 1
                 print("fails: ")
+        print(f"passes = {passes} ")
+        print(f"fails = {fails} ")
         print(f"total: {total_students}")        
         print(f"highest score: {highest}")
         print(f"lowest score: {lowest}")
